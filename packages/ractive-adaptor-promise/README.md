@@ -1,0 +1,1 @@
+# ractive-adaptor-promise

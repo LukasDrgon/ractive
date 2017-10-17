@@ -1,0 +1,13 @@
+{
+  "name": "ractive-utils",
+  "version": "1.0.0",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/lib.umd.js",
+  "module": "dist/lib.es.js",
+  "scripts": {
+    "build": "rollup -c src/rollup.config.js",
+    "test": "rollup -c test/rollup.config.js && karma start test/karma.conf.js"
+  }
+}
